@@ -4,8 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="happy"
+        android:text="樂透"
+        android:textSize="36sp" />
 
     <TextView
         android:id="@+id/txv"
@@ -13,7 +21,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="計數器"
-        android:textSize="36sp"
-        />
+        android:textSize="36sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>S
+</LinearLayout>
